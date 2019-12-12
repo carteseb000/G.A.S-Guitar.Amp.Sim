@@ -1,1 +1,1 @@
-# G.A.S-guitar.amp.sim
+# G.A.S-Guitar.Amp.Sim
