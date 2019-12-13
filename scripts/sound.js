@@ -1,6 +1,7 @@
 var seq;
 var vol = new Tone.Volume().toMaster();
-var mic = new Tone.UserMedia().connect(vol);
+var dist = new Tone.Distortion().connect(vol);
+var mic = new Tone.UserMedia().connect(dist);
 var p1 = new Tone.Players({
   "kick": 'https://cdn.jsdelivr.net/gh/Tonejs/Tone.js/examples/audio/505/kick.mp3',
   "snare": 'https://cdn.jsdelivr.net/gh/Tonejs/Tone.js/examples/audio/505/snare.mp3',
